@@ -1,0 +1,932 @@
+[
+  {
+    "name": "first_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "last_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "activated_by",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "activation_timestamp",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "admin_deactivate_reason",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+  {
+    "name": "admin_deactivation_type",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "attendance_policy",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "attendance_shift",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "attendance_shift_shift_block_effective_date",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "attendance_weeklyoff",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "band",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "confirmation_status",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "confirmation_status_without_hold_days",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "continuous_length_of_service",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "continuous_service_date",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  }
+   {
+    "name": "created_by",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "current_attendance_shift",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "date_of_confirmation",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "date_of_confirmation_without_hold_days",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "date_of_exit",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "date_of_reactivation",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "date_of_activation",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "date_of_joining",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "deactivation_timestamp",
+    "type": "DATETIME",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "department",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "department_code",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "department_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+  {
+    "name": "departments_hierarchy",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "departments_hierarchy_with_codes",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "direct_manager",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "direct_manager_effective_from",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "direct_manager_email",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "direct_manager_employee_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "direct_manager_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "direct_reportees_employee_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "do_not_hire_comment",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "employee_added_date",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "employee_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "employee_separation_comments",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "employee_separation_reason",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+  {
+    "name": "employee_status",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "employee_type",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "employee_type_effective_from",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "experience_in_current_role",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "hod",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "hod_email_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "hod_employee_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "hrbp_email_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "hrbp_employee_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "hrbp_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "hrbp_role",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "job_family",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+   {
+    "name": "job_family_code",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "job_level",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "job_level_code",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "l2_manager",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "l2_manager_email",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "l2_manager_employee_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "last_login",
+    "type": "DATETIME",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "latest_manager_effective_from",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "latest_modified",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "latest_modified_timestamp",
+    "type": "DATETIME",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "latest_modified_any_attribute",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "latest_office_effective_from",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "level",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "notice_period_assigned",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+  {
+    "name": "notice_period_start_date",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "old_employee_id_rehired",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "past_work_experience",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "pay_scale",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "pay_scale_group",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "performance_manager",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "permission_role",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "probation_period",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "retirement_date",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "retirement_date_manual",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "role",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "role_code",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "role_effective_from",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "role_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "salary_structure",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+   {
+    "name": "separation_agreed_last_date",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "separation_final_recovery_days",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "separation_reject_reason",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "separation_requested_last_date",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "separation_revoke_date",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "separation_revoke_reason",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "separation_status",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "separation_transaction_date",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "tenure",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "termination_comment",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "total_experience",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "vertical",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "vertical_code",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "base_office_location",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "blood_group",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "candidate_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+   {
+    "name": "city_type",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "company_email_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "date_of_birth",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "date_of_birth_access",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "date_of_resignation_recorded",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "date_of_resignation",
+    "type": "DATE",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "emergency_contact_number",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "emergency_contact_person",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "emergency_contact_relation",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "full_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "location_type",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "marital_status",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "marriage_anniversary_access",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "middle_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "office_area",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "office_city",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+  {
+    "name": "office_country",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "office_location",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "office_pincode",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "office_state",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "office_city_code",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "office_country_code",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "office_state_code",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "phone_country_code",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "primary_mobile_number",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "primary_mobile_country_code",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "user_unique_id",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "work_area_code",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "citizenship",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "experience_prior_to_ather_round_off",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "fathers_name",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+   {
+    "name": "food_allowance",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "job_title",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "personal_email_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "physical_work_location",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "r_d_project_1",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "r_d_project_1_contribution",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "r_d_project_2",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "r_d_project_2_contribution",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "r_d_project_3",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "r_d_project_3_contribution",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "r_d_project_4",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "r_d_project_4_contributions",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "r_d_project_5",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "r_d_project_5_contribution",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "special_leave_2022",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+   {
+    "name": "swimlane_1",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "swimlane_1_contribution",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "swimlane_2",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "swimlane_2_contribution",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "swimlane_3",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "swimlane_3_contribution",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "swimlane_4",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "swimlane_4_contribution",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "swimlane_5",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "swimlane_5_contribution",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "current_address",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "current_address_line_1",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "current_pin_code",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "current_city",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "current_city_code",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+   {
+    "name": "current_country",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "current_country_code",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "current_landmark",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "current_state",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "current_state_code",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "current_street",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "office_mobile_access",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "permanent_address",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "permanent_address_line_1",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "permanent_pin_code",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "permanent_city",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "permanent_city_code",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "permanent_country",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "permanent_country_code",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "permanent_district_code",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "permanent_landmark",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+   {
+    "name": "permanent_region_code",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "permanent_state",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "permanent_state_code",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "permanent_street",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "personal_email_id_access",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "personal_mobile_access",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "personal_mobile_no",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "home",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "office",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "personal",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "office_mobile_no",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "gender",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]  
